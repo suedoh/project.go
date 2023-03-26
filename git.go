@@ -33,7 +33,7 @@ func (g *Git) HandleGit() {
                 log.Fatalln("Error:", err)
             }
             fmt.Println(string(out))
-            handlGitRemote()
+            g.HandlGitRemote()
             return
         case "n":
             g.Init = false
