@@ -13,6 +13,7 @@ func main() {
     handleGit()
 
     // create a Go module
+    handleGoMod()
 }
 
 func handleGit() {
