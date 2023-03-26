@@ -10,7 +10,9 @@ import (
 
 func main() {
     // take care of Git logic
-    handleGit()
+    // handleGit()
+    git := &Git{}
+    git.HandleGit()
 
     // create a Go module
     handleGoMod()
