@@ -8,6 +8,10 @@ import (
     "os/exec"
 )
 
+const (
+    projectPath = "~/code/"
+)
+
 func main() {
     // take care of Git logic
     // handleGit()
